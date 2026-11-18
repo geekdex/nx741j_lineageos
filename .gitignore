@@ -1,0 +1,22 @@
+# Large archives & images
+*.tar.gz
+*.tar.xz
+*.tar.bz2
+*.7z
+*.zip
+*.img
+*.bin
+*.lz4
+
+# Stock dumps & extracted firmware
+stock_dump/
+stock_edl/
+
+# Large AOSP / LineageOS / Kernel source trees
+lineage-23.2/
+kernel/
+kernel_platform/
+vendor/
+external/
+out/
+.repo/
