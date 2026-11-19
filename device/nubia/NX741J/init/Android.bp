@@ -1,0 +1,145 @@
+//
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+prebuilt_etc {
+    name: "fstab.qcom",
+    src: "fstab.qcom",
+    vendor: true,
+    vendor_ramdisk_available: true,
+}
+
+prebuilt_etc {
+    name: "init.fingerprint.gum5228.rc",
+    src: "init.fingerprint.gum5228.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.qcom.rc",
+    src: "init.qcom.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.qti.kernel.rc",
+    src: "init.qti.kernel.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.qti.kernel.target.rc",
+    src: "init.qti.kernel.target.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.qti.ufs.rc",
+    src: "init.qti.ufs.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.target.rc",
+    src: "init.target.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.vendor.rc",
+    src: "init.vendor.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "ueventd.qcom.rc",
+    filename: "ueventd.rc",
+    src: "ueventd.qcom.rc",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.class_main.sh",
+    src: "init.class_main.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.kernel.post_boot-canoe.sh",
+    src: "init.kernel.post_boot-canoe.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.kernel.post_boot-canoe_5_1.sh",
+    src: "init.kernel.post_boot-canoe_5_1.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.kernel.post_boot-canoe_5_2.sh",
+    src: "init.kernel.post_boot-canoe_5_2.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.kernel.post_boot-canoe_6_1.sh",
+    src: "init.kernel.post_boot-canoe_6_1.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.kernel.post_boot-canoe_default_6_2.sh",
+    src: "init.kernel.post_boot-canoe_default_6_2.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.kernel.post_boot-memory.sh",
+    src: "init.kernel.post_boot-memory.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.kernel.post_boot.sh",
+    src: "init.kernel.post_boot.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.qcom.early_boot.sh",
+    src: "init.qcom.early_boot.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.qcom.post_boot.sh",
+    src: "init.qcom.post_boot.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.qcom.sh",
+    src: "init.qcom.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.qti.qcv.sh",
+    src: "init.qti.qcv.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.zte.post_boot.sh",
+    src: "init.zte.post_boot.sh",
+    vendor: true,
+}

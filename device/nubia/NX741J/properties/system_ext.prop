@@ -1,0 +1,22 @@
+# Audio
+ro.audio.ihaladaptervendorextension_enabled=true
+
+# Bluetooth
+bluetooth.device.class_of_device=90,2,12
+bluetooth.hfp.codec_aptx_voice.enabled=true
+bluetooth.hfp.swb.aptx.power_management.enabled=true
+bluetooth.leaudio.dual_bidirection_swb.supported=true
+persist.bluetooth.bqr.choppy_threshold=1,2
+persist.bluetooth.bqr.event_mask=30
+persist.bluetooth.bqr.min_interval_ms=1000
+persist.bluetooth.leaudio.bypass_allow_list=true
+persist.bluetooth.leaudio.notify.idle.during.call=true
+persist.bluetooth.leaudio_offload.disabled=false
+ro.bluetooth.leaudio_offload.supported=true
+
+# DPM
+persist.vendor.dpm.feature=7
+
+# Telephony
+ro.telephony.sim_slots.count=2
+telephony.active_modems.max_count=2

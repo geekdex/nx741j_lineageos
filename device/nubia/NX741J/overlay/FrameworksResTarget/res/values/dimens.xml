@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Verified from NX741J dumpsys display & dumpsys window (1216x2688 @ 520dpi) -->
+    <dimen name="rounded_corner_radius">23px</dimen>
+    <dimen name="status_bar_height_portrait">125px</dimen>
+</resources>

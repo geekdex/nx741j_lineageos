@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <bool translatable="false" name="config_wifi5ghzSupport">true</bool>
+    <bool translatable="false" name="config_wifi6ghzSupport">true</bool>
+    <bool translatable="false" name="config_wifi_softap_ieee80211ax_supported">true</bool>
+    <bool translatable="false" name="config_wifi_softap_ieee80211be_supported">true</bool>
+    <bool translatable="false" name="config_wifi_softap_acs_supported">true</bool>
+    <bool translatable="false" name="config_wifi_softap_sae_supported">true</bool>
+    <bool translatable="false" name="config_wifiSoftap6ghzSupported">true</bool>
+    <bool translatable="false" name="config_wifi_dual_sap_mode_enabled">true</bool>
+</resources>

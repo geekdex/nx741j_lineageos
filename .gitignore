@@ -14,6 +14,7 @@ stock_edl/
 
 # Large AOSP / LineageOS / Kernel source trees
 lineage-23.2/
+lineage-24.0/
 kernel/
 kernel_platform/
 vendor/
