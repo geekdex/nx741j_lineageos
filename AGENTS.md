@@ -81,8 +81,8 @@
 - [x] **Phase 5**：建立 device tree（[device/nubia/NX741J/](file:///home/panhy/src/nx741j_lineageos/device/nubia/NX741J/) 初版已建立，待 Phase 6–8 联动验证）
 - [x] **Phase 6**：建立 vendor tree / proprietary blobs（`ssh home:~/src/nx741j_lineageos/lineage-24.0/vendor/nubia/NX741J/` 已由 `extract-files.py` 生成）
 - [x] **Phase 7**：Kernel / DT / vendor 集成（采用原厂 GKI `Image` + `dtb` + `dtbo` + 410 个 `.ko` 预编译模块，`breakfast NX741J` 解析通过）
-- [ ] **Phase 8**：第一次完整编译 *(下一步)*
-- [ ] **Phase 9**：第一次启动
+- [x] **Phase 8**：第一次完整编译（`lineage-24.0-20261120-UNOFFICIAL-NX741J.zip` 与全套分区镜像已编译生成）
+- [ ] **Phase 9**：第一次启动 *(下一步)*
 - [ ] **Phase 10**：基础 Bring-up
 - [ ] **Phase 11**：硬件逐项 Bring-up
 - [ ] **Phase 12**：SELinux / Security / Encryption

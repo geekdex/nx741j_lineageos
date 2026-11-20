@@ -37,9 +37,7 @@ vendor/lib64/libAlacSwDec.so
 vendor/lib64/libApeSwDec.so
 vendor/lib64/libEvrcSwCodec.so
 vendor/lib64/libFlacSwDec.so
-vendor/lib64/libPeripheralStateUtils.so
 vendor/lib64/libadm.so
-vendor/lib64/libar-pal.so
 vendor/lib64/libarmemlog.so
 vendor/lib64/libaudio_log_utils.so
 vendor/lib64/libaudiofeaturestats.so
@@ -48,8 +46,6 @@ vendor/lib64/libcapiv2svacnnvendor.so
 vendor/lib64/libcapiv2svarnnvendor.so
 vendor/lib64/libcapiv2udk7vendor.so
 vendor/lib64/libcapiv2uvvendor.so
-vendor/lib64/libdev_bt.so
-vendor/lib64/libdev_speaker.so
 vendor/lib64/libdsd2pcm.so
 vendor/lib64/libeai_fixed.so
 vendor/lib64/libeai_float.so
@@ -58,15 +54,6 @@ vendor/lib64/liblistensoundmodelaidl.so
 vendor/lib64/libpal_net_if.so
 vendor/lib64/libqasr.so
 vendor/lib64/libqtigefar.so;DISABLE_DEPS
-vendor/lib64/libsession_ar.so
-vendor/lib64/libsession_compress.so
-vendor/lib64/libsession_compress_config.so
-vendor/lib64/libsession_pcm.so
-vendor/lib64/libsession_pcm_config.so
-vendor/lib64/libsession_voice.so
-vendor/lib64/libsession_voice_config.so
-vendor/lib64/libstream_compress.so
-vendor/lib64/libstream_pcm.so
 vendor/lib64/vendor.qti.hardware.ListenSoundModelAidl-V1-ndk.so
 vendor/lib64/vendor.qti.hardware.ListenSoundModelAidl-V2-ndk.so
 vendor/lib64/vendor.qti.hardware.qasr-V3-ndk.so
@@ -2024,7 +2011,7 @@ vendor/lib64/libzcv.so
 vendor/lib64/libarcsoft_qnnhtp.so
 vendor/lib64/libocl_runtime.so
 vendor/lib64/libqnn_net_base.so
-vendor/lib64/libVoiceSdk.so
+vendor/lib64/libVoiceSdk.so;DISABLE_CHECKELF
 vendor/lib64/vendor.qti.hardware.capabilityconfigstore-V1-ndk.so
 vendor/lib64/libteec.so
 vendor/lib64/hw/libbcs.so
@@ -2032,3 +2019,18 @@ vendor/lib64/libopencv_core.so
 vendor/lib64/libopencv_imgproc.so
 vendor/lib64/libhdr10plus.so
 vendor/lib64/libmodemapi_vendor.so
+
+# Audio HAL & PAL Prebuilts (stock SM8850)
+vendor/lib64/libPeripheralStateUtils.so
+vendor/lib64/libar-pal.so
+vendor/lib64/libdev_bt.so
+vendor/lib64/libdev_speaker.so
+vendor/lib64/libsession_ar.so
+vendor/lib64/libsession_compress.so
+vendor/lib64/libsession_compress_config.so
+vendor/lib64/libsession_pcm.so
+vendor/lib64/libsession_pcm_config.so
+vendor/lib64/libsession_voice.so
+vendor/lib64/libsession_voice_config.so
+vendor/lib64/libstream_compress.so
+vendor/lib64/libstream_pcm.so

@@ -68,7 +68,6 @@ PRODUCT_PACKAGES += \
     libdev_handset \
     libdev_handset_mic \
     libdev_handset_va \
-    libdev_haptics \
     libdev_headphone \
     libdev_proxy \
     libdev_speaker_mic \
@@ -110,6 +109,12 @@ PRODUCT_PACKAGES += \
     qti-audio-types-aidl-V1-ndk.vendor \
     qtiaudiohalvendorextn \
     sva_plugin
+
+$(call soong_config_set,qtiaudio,extra_device_virtuals,4)
+$(call soong_config_set,qtiaudio,extra_out_devices,1)
+$(call soong_config_set,qtiaudio,extra_in_devices,1)
+$(call soong_config_set_bool,qtiaudio,nonvirtual_stream_isinitialized,true)
+$(call soong_config_set_bool,qtiaudio,no_stream_mixer_event_callback,true)
 
 AUDIO_HAL_DIR := hardware/qcom-caf/sm8850/audio/primary-hal
 CONFIG_HAL_SRC_DIR := $(AUDIO_HAL_DIR)/configs/canoe
@@ -407,6 +412,7 @@ PRODUCT_COPY_FILES += \
 
 # VINTF
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
+    device/nubia/NX741J/vintf/device_framework_matrix.xml \
     hardware/qcom-caf/common/vendor_framework_compatibility_matrix.xml
 DEVICE_MANIFEST_FILE := \
     $(LOCAL_PATH)/vintf/manifest_canoe.xml
